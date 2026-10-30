@@ -1,12 +1,13 @@
 export const siteConfig = {
   name: "Auto Landing Pro",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   description:
     "Servicio técnico automotriz especializado. Diagnóstico de precisión, repuestos certificados y garantía por escrito.",
-  whatsappNumber: "56953449708",
+  whatsappNumber: "56912345678",
   whatsappMessage:
     "Hola, me gustaría agendar una revisión técnica para mi vehículo.",
   phone: "+56 9 1234 5678",
-  phoneHref: "tel:+56953449708",
+  phoneHref: "tel:+56912345678",
   email: "contacto@autolandingpro.cl",
   address: "Santiago, Chile",
   businessHours: [
