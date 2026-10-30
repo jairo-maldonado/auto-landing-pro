@@ -5,9 +5,14 @@ export const siteConfig = {
   whatsappNumber: "56953449708",
   whatsappMessage:
     "Hola, me gustaría agendar una revisión técnica para mi vehículo.",
-  phone: "+56 9 5344 9708",
+  phone: "+56 9 1234 5678",
   phoneHref: "tel:+56953449708",
+  email: "contacto@autolandingpro.cl",
   address: "Santiago, Chile",
+  businessHours: [
+    { days: "Lunes a Viernes", hours: "08:30 a 18:30" },
+    { days: "Sábado", hours: "09:00 a 14:00" },
+  ],
   navLinks: [
     { label: "Inicio", href: "#home" },
     { label: "Servicios", href: "#services" },
