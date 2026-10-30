@@ -4,7 +4,7 @@ const headingClassName =
   "text-sm font-semibold uppercase tracking-widest text-white";
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = 2026;
 
   return (
     <footer className="bg-gray-900 px-4 pb-8 pt-16 text-gray-300">
