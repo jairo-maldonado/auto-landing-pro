@@ -1,7 +1,9 @@
+import Hero from "@/components/sections/hero";
+
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <h1 className="text-4xl font-bold">Auto Landing Pro</h1>
+    <main>
+      <Hero />
     </main>
   );
 }
