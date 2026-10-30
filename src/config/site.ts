@@ -12,6 +12,6 @@ export const siteConfig = {
     { label: "Inicio", href: "#home" },
     { label: "Servicios", href: "#services" },
     { label: "Nosotros", href: "#about" },
-    { label: "Contacto", href: "#contact" },
+    { label: "Contacto", href: "#contacto" },
   ],
 } as const;
