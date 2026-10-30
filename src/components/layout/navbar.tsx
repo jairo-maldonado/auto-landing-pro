@@ -33,13 +33,13 @@ export default function Navbar() {
           href={siteConfig.phoneHref}
           className="hidden rounded-full bg-black px-5 py-2 text-sm font-semibold text-white transition hover:bg-gray-800 md:inline-block"
         >
-          Call now
+          Llamar ahora
         </a>
 
         <button
           type="button"
           onClick={() => setIsOpen((prev) => !prev)}
-          aria-label="Toggle menu"
+          aria-label="Abrir menú"
           aria-expanded={isOpen}
           className="p-2 md:hidden"
         >
@@ -81,7 +81,7 @@ export default function Navbar() {
             onClick={closeMenu}
             className="mt-2 block rounded-full bg-black px-5 py-3 text-center font-semibold text-white"
           >
-            Call now
+            Llamar ahora
           </a>
         </div>
       )}

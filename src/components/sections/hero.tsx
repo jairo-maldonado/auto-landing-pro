@@ -1,4 +1,5 @@
 import { siteConfig } from "@/config/site";
+import { getWhatsAppUrl } from "@/lib/whatsapp";
 
 export default function Hero() {
   return (
@@ -12,7 +13,7 @@ export default function Hero() {
         </p>
 
         <h1 className="max-w-3xl text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
-          Expert car care you can trust
+          Cuidado experto y transparente para tu auto
         </h1>
 
         <p className="mt-6 max-w-xl text-lg text-gray-300">
@@ -21,16 +22,18 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <a
-            href="#contact"
+            href={getWhatsAppUrl()}
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-full bg-orange-500 px-8 py-3 text-center font-semibold text-white transition hover:bg-orange-600"
           >
-            Request a quote
+            Cotizar por WhatsApp
           </a>
           <a
             href="#services"
             className="rounded-full border border-white/30 px-8 py-3 text-center font-semibold text-white transition hover:bg-white/10"
           >
-            Our services
+            Ver servicios
           </a>
         </div>
       </div>

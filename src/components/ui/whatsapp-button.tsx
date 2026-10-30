@@ -1,16 +1,12 @@
-import { siteConfig } from "@/config/site";
+import { getWhatsAppUrl } from "@/lib/whatsapp";
 
 export default function WhatsAppButton() {
-  const href = `https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(
-    siteConfig.whatsappMessage,
-  )}`;
-
   return (
     <a
-      href={href}
+      href={getWhatsAppUrl()}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Chat on WhatsApp"
+      aria-label="Chatear por WhatsApp"
       className="fixed bottom-6 right-6 z-50 flex items-center gap-2 rounded-full bg-green-500 px-5 py-3 font-semibold text-white shadow-lg transition hover:scale-105 hover:bg-green-600"
     >
       <svg
