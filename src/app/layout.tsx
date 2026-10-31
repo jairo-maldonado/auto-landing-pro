@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { siteConfig } from "@/config/site";
 import Navbar from "@/components/layout/navbar";
 import WhatsAppButton from "@/components/ui/whatsapp-button";
@@ -44,6 +46,8 @@ export default function RootLayout({
         <Navbar />
         {children}
         <WhatsAppButton />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
