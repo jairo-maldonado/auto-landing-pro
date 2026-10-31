@@ -1,8 +1,7 @@
 # Auto Landing Pro
 
 Responsive landing page for an automotive workshop in Santiago, Chile. Built with Next.js, TypeScript, Tailwind CSS and Supabase.
-
-**Live demo:** https://your-vercel-url.vercel.app
+[Ver Demo en Vivo](https://auto-landing-cnwu4uyie-jairo-maldonados-projects.vercel.app/)
 
 ## Features
 
